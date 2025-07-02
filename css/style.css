@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'OpenSans';
+    src: url("../font/OpenSans.ttf");
+}
+
+body {
+  font-family: 'OpenSans';
+  transition: background-color 0.3s, color 1.1s;
+}
+
+.container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+input, button {
+  padding: 10px;
+  margin: 5px;
+}
+
+button {
+    border-radius: 15px;
+    border-width: 1px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  text-align: left;
+  margin: 8px 0;
+  background-color: #dcdcdc;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+body.claro {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+body.escuro {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+body.escuro li {
+  background-color: #444444;
+}
